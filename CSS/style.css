@@ -664,6 +664,65 @@ div span {
     opacity: 1;
 }
 
+.wrapper-6{
+    width:50%;
+    margin: 0 auto;
+    left: 55%;
+    top: 372%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+}
+
+.wrapper-6 .project6{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    outline: solid 4px #ffffff;
+}
+
+.overlay-6{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(77, 168, 218, 0.9)
+}
+
+.wrapper-6:hover .overlay-6{
+    opacity: 1;
+}
+
+.content-11{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #203647;
+    border: solid 2px #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    
+    
+}
+
+.content-12{ 
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #203647;
+    border: solid 2px #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+
 .line-5 hr{
     width: 45%;
     position: absolute;
@@ -675,7 +734,15 @@ div span {
 .line-6 hr{
     width: 45%;
     position: absolute;
-    top: 350%;
+    top: 345%;
+    left: 33%;
+    border: 1px dashed #ffffff;
+}
+
+.line-7 hr{
+    width: 45%;
+    position: absolute;
+    top: 400%;
     left: 33%;
     border: 1px dashed #203647;
 }
@@ -776,7 +843,24 @@ div span {
 }
 
 
+.text-container-6{
+    position: absolute;
+    left: 8%;
+    bottom: -280%;
+    animation: transitionIn 0.75s;
+    padding: 3px;
+    width: 30%;   
+    background: #ffffff;
+    color: #203647;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, .25);
+    border-radius: 1px;
+ 
+  
+}
 
+.text-container-6 h2{
+    text-align: center;
+}
 
 
 
