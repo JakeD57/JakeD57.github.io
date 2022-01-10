@@ -1,4 +1,4 @@
-# Jacob Di Domenico Personal Website!
+# First Ever Portfolio Website.
 
 This is my personal website that I have built using HTML, CSS and CSS media queries.
 
